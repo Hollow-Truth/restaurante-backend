@@ -44,7 +44,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'backend_restaurante.urls'
+ROOT_URLCONF = 'backend_restaurant.urls'
 
 TEMPLATES = [
     {
@@ -62,7 +62,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend_restaurante.wsgi.application'
+WSGI_APPLICATION = 'backend_restaurant.wsgi.application'
 
 # BASE DE DATOS INTELIGENTE
 # Si Render nos da una DATABASE_URL, usamos PostgreSQL. Si no, SQLite.
