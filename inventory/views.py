@@ -55,7 +55,7 @@ class PurchaseViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated]
 
 # 6. UNIDADES
-class UnitViewSet(viewsets.ReadOnlyModelViewSet):
+class UnitViewSet(viewsets.ModelViewSet):
     queryset = UnitOfMeasure.objects.all()
     serializer_class = UnitSerializer
     permission_classes = [IsAuthenticated]
